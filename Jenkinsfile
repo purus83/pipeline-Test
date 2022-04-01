@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('First-Step'){
             steps {
-                sh 'cat /etc/vfstab'
+                sh 'cat /etc/fstab'
                 }
         }
     }
