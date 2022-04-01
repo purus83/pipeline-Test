@@ -5,7 +5,7 @@ pipeline {
         stage('First-Step'){
             steps {
                 sh 'cat /etc/fstab'
-                echo ${params.TestString}
+                echo "${params.TestString}"
                 }
         }
     }
